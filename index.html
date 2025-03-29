@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+<h1 id="title">Customer Feedback Survey Form</h1>
+<link rel="stylesheet" href="styles.css" />
+<p id="description">We value your feedback to serve you better. Please take 2-3 minutes to answer this quick survey.</p>
+<form id="survey-form">
+  <label id="name-label" for="name">Name</label>
+  <input id="name" type="text" placeholder="Enter your name" required></input>
+  <label id="email-label" for="email">Email</label>
+  <input id="email" type="email" placeholder="Enter your Email" required></input>
+  <label id="number-label" for="number">Age</label>
+  <input id="number" type="number" placeholder="Age" min="1" max="99"></input>
+
+           <form id="survey-form">
+  <label for="dropdown">Gender</label>
+  <select id="dropdown" name="options">
+    <option value="option1">Select your gender</option>
+    <option value="option2">Male</option>
+    <option value="option3">Female</option>
+    <option value="option4">Other</option>
+  </select>
+
+ <div class="form-group">
+          <p>Would you recommend our course to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+
+         <form id="survey-form">
+    <h1>Survey Form</h1>
+    <p>What features do you like?</p>
+    
+    <label>
+        <input type="checkbox" name="features" value="Feature 1" />
+        Front-end Projects
+      </label>
+      <label>
+        <input type="checkbox" name="features" value="Feature 2" />
+        Back-end Projects
+      </label>
+      <input type="checkbox" name="features" value="Feature 3" />
+        Data Visualization
+      </label>
+      
+      <div class="form-group">
+      <p>Additional Comments</p>
+      <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+    </div>
+
+<button type="submit" id="submit" class="submit-button">Submit</button>
+
+           </body>
+</html>

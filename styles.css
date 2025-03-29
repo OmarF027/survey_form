@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+    background-color: #1b1b32;
+color: #f5f6f7;
+text-align:center;
+  }
+
+  #survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display:block;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+.form-group p {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block; /* Ogni elemento su una nuova riga */
+    margin-bottom: 10px; /* Spazio tra ogni elemento */
+  }
+
+  /* Stile per input di tipo checkbox e radio */
+  input[type="radio"], {
+    margin-right: 10px;
+     /* Spazio tra il box e il testo */
+  }
+
+  input[type="checkbox"], {
+    margin-right:10px;
+    display:block;
+    position:fixed;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  textarea {
+    width: 100%; 
+    height: 100px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom:20px;
+  }
+
+  .submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: red;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+  .submit-button:hover {
+    background: #0056b3;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group p {
+    margin-bottom: 10px;
+  }
+
+  .form-group input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+  }
